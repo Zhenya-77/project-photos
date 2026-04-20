@@ -2,7 +2,25 @@ body {
     font-family: 'Petit Formal Script', cursive;
     background-color:blanchedalmond ;
     margin: 0;
-    background-image: url(../images/Sophia-1.jpg);
+    
+}
+
+body::before {
+
+    content: "";
+        position: fixed;
+        inset: 0;
+    
+        background-image: url(../images/Sophia-1.jpg);
+        background-size: cover;
+        background-position: center;
+    
+        filter: blur(3px);
+        /* 👈 тут регулюєш розмиття */
+        transform: scale(1.05);
+        /* щоб не було білих країв */
+    
+        z-index: -1;
 }
 
 h1 {
