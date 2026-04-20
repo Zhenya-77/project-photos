@@ -4,7 +4,7 @@ const photos = [
   { id: 3, src: "./images/Sophia-1 (3).jpg", name: "Sophia" },
   { id: 4, src: "./images/Sophia-1 (4).jpg", name: "Sophia" },
   { id: 5, src: "./images/Sophia-1 (5).jpg", name: "Sophia" },
-  { id: 6, src: "./images/Sophia-1 (6).jpg", name: "Sophia" },
+  { id: 6, src: "./images/Sophia-1.jpg", name: "Sophia" },
   { id: 7, src: "./images/Sophia-1 (7).jpg", name: "Sophia" },
   { id: 8, src: "./images/Sophia-1 (8).jpg", name: "Sophia" },
   { id: 9, src: "./images/Sophia-1 (9).jpg", name: "Sophia" },
